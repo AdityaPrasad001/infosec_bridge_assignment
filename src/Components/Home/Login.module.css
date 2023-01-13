@@ -1,0 +1,87 @@
+.login {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  height: 12rem;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.form > input {
+  height: 2rem;
+  width: 12rem;
+  border-radius: 1.5rem;
+  padding: 0.2rem 1.5rem;
+  border: none;
+  border: 1px solid #6a6a6a;
+}
+
+/* header */
+
+.header {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.forget_password {
+  margin-top: -0.6rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  text-align: end;
+  color: #e70b89;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.social_loginOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_loginOption .or {
+  color: #6a6a6a;
+}
+
+.socials img {
+  margin-top: -0.05rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  padding: 0.5rem;
+  border: 1px solid #e9e9e9;
+  border-radius: 50%;
+}
+
+.para_Text {
+  margin-top: -0.5rem;
+}
+.imp_text {
+  color: #e70b89;
+}
+
+.terms_conditions {
+  margin: 1rem 0rem;
+  margin-bottom: 2rem;
+}
+.terms_conditions .link {
+  color: #e70b89;
+  text-decoration: underline;
+}
